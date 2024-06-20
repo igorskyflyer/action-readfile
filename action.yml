@@ -1,0 +1,11 @@
+name: '$4'
+description: '$5'
+author: Igor Dimitrijević (igorskyflyer)
+
+inputs:
+
+outputs:
+
+runs:
+  using: 'node20'
+  main: 'dist/index.mjs'
