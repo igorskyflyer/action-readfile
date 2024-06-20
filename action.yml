@@ -1,10 +1,19 @@
-name: '$4'
-description: '$5'
+name: 'Read file'
+description: 'Read contents of an arbitrary file.'
 author: Igor Dimitrijević (igorskyflyer)
+branding:
+  icon: 'file-text'
+  color: 'purple'
 
 inputs:
+  path:
+    description: 'File path'
+    required: true
+
 
 outputs:
+  content:
+    description: 'File contents'
 
 runs:
   using: 'node20'
