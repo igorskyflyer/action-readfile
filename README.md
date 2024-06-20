@@ -46,6 +46,8 @@ jobs:
     name: Read arbitrary file
 
     steps:
+		# do not remove this step,
+		# it is necessary
       - name: Checkout repository
         uses: actions/checkout@v4
         
