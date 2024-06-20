@@ -73,3 +73,33 @@ jobs:
 `path: string`, **required**
 
 The path of the file to read.
+
+---
+
+## 🪪 License
+
+Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/action-readfile/blob/main/LICENSE).
+
+---
+
+## 🧬 Related
+
+[simple-exec](https://www.npmjs.com/package/simple-exec)
+
+> _🕺 Command. Execution. Made. Simple. ▶_
+
+[@igor.dvlpr/recursive-readdir](https://www.npmjs.com/package/@igor.dvlpr/recursive-readdir)
+
+> _📖 Provides recursive readdir() and readdirSync() functions. 📁_
+
+[@igor.dvlpr/keppo](https://www.npmjs.com/package/@igor.dvlpr/keppo)
+
+> _🎡 Parse, manage, compare and output SemVer-compatible version numbers. 🛡_
+
+[@igor.dvlpr/odin](https://www.npmjs.com/package/@igor.dvlpr/odin)
+
+> _🔱 Odin is an Object wrapper that allows you to create objects and set their attributes - all at once! 🔺_
+
+[@igor.dvlpr/aria](https://www.npmjs.com/package/@igor.dvlpr/aria)
+
+> _🧬 Meet Aria, an efficient Adblock filter list compiler, with many features that make your maintenance of Adblock filter lists a breeze! 🗡_
