@@ -1,16 +1,13 @@
+import { readFile } from 'node:fs/promises'
 import { setFailed } from '@actions/core'
-import github from '@actions/github'
+import core from '@actions/core'
+
 async function action() {
 	try {
-		const token = process.env.GITHUB_TOKEN || ''
+		const path = core.getInput('path', { required: true })
+		const contents = await readFile(path, 'utf-8')
 
-		if (!token) {
-			setFailed("Couldn't fetch the GitHub token.")
-			return
-		}
-
-		const octokit = github.getOctokit(token)
-		const context = github.context
+		core.setOutput('content', contents)
 	} catch (error) {
 		setFailed(error.message)
 	}
