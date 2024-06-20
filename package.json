@@ -1,5 +1,5 @@
 {
-	"name": "@igorskyflyer/readfile-action",
+	"name": "@igorskyflyer/action-readfile",
 	"version": "1.0.0",
 	"main": "dist/index.mjs",
 	"module": "dist/index.mjs",
