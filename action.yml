@@ -1,6 +1,6 @@
 name: 'Read file'
 description: 'Read contents of an arbitrary file.'
-author: Igor Dimitrijević (igorskyflyer)
+author: 'Igor Dimitrijević (igorskyflyer)'
 branding:
   icon: 'file-text'
   color: 'purple'
