@@ -1,5 +1,5 @@
 {
-	"name": "$0",
+	"name": "@igorskyflyer/readfile-action",
 	"version": "1.0.0",
 	"main": "dist/index.mjs",
 	"module": "dist/index.mjs",
@@ -10,20 +10,26 @@
 		"build": "ncc build index.mjs --license licenses.txt"
 	},
 	"keywords": [
-		"$3"
+		"action",
+		"github",
+		"read",
+		"file",
+		"contents",
+		"readfile",
+		"igorskyflyer"
 	],
 	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
 	"funding": "https://ko-fi.com/igorskyflyer",
-	"homepage": "https://github.com/igorskyflyer/$1",
+	"homepage": "https://github.com/igorskyflyer/action-readfile",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/igorskyflyer/$1.git"
+		"url": "https://github.com/igorskyflyer/action-readfile.git"
 	},
 	"bugs": {
-		"url": "https://github.com/igorskyflyer/$1/issues"
+		"url": "https://github.com/igorskyflyer/action-readfile/issues"
 	},
 	"license": "MIT",
-	"description": "$2",
+	"description": "🌬️ A GitHub Action to read an arbitrary file and either output it or use it in another GitHub Action. 🍃",
 	"dependencies": {
 		"@actions/core": "^1.10.1",
 		"@actions/github": "^6.0.0",
