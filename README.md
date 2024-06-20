@@ -19,7 +19,7 @@ steps:
     uses: actions/checkout@v4
   - name: Read arbitrary file
     id: file
-    uses: igorskyflyer/readfile-action@v1.0.0
+    uses: igorskyflyer/action-readfile@v1.0.0
     env:
       FILE_CONTENTS: ${{ steps.file.outputs.content }}
     with:
