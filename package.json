@@ -7,6 +7,7 @@
 		"node": ">=20"
 	},
 	"scripts": {
+		"lint": "biome lint index.mjs",
 		"build": "ncc build index.mjs --license licenses.txt"
 	},
 	"keywords": [
