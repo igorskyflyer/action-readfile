@@ -60,11 +60,11 @@ jobs:
       - name: Output file
         env:
           FILE_CONTENTS: ${{ steps.file.outputs.content }}
+        # print the output directly (1)
+        # or via an environment variable (2)
         run: |
           echo 'File contents:'
-        # print the output directly
           echo "${{ steps.file.outputs.content }}"
-        # or via a environment variable
           echo "$FILE_CONTENTS"
 ```
 
@@ -74,7 +74,7 @@ jobs:
 
 `path: string`, **required**
 
-The path of the file to read.
+The path of the file to read, relative to the current working directory i.e. the repository where the action is installed.
 
 ---
 
