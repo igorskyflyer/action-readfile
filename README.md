@@ -32,7 +32,7 @@ jobs:
         id: file
         uses: igorskyflyer/action-readfile@v1.0.0
         with:
-          path: ./test.txt
+          path: './test.txt'
       
       - name: Output file
         env:
