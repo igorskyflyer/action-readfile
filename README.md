@@ -74,7 +74,7 @@ jobs:
 
 `path: string`, **required**
 
-The path of the file to read, relative to the current working directory i.e. the repository where the action is installed.
+The path of the file to read, relative to the current working directory i.e. the repository where the Action is installed.
 
 ---
 
