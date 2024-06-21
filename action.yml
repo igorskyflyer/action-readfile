@@ -1,4 +1,4 @@
-name: 'Read file'
+name: 'Read local file'
 description: 'Read contents of an arbitrary file.'
 author: 'Igor Dimitrijević (igorskyflyer)'
 branding:
